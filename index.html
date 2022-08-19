@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
     rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -38,26 +39,26 @@
       <img class=" lg:block hidden h-[400px]  w-[600px] "   src=" ./images//image-product-desktop.jpg" alt="parfum">
       <img class="block lg:hidden" src="./images//image-product-mobile.jpg" alt="parfum">
     </div>
-    <article class="flex flex-col lg:justify-start justify-between align-around  h-[400px] lg:ml-[32px] lg:mt-[32px] m-[16px] ">
-      <h1 class="uppercase font-medium text-[12px] leading-[14.63px] spacing-[5px] text-[#6C7289] tracking-[5px]  p-[0px] ">perfume</h1>
-      <h1 class="lg:whitespace-pre-line font-bold text-[32px] leading-[32px]  p-[0px]	">
+    <article class="flex flex-col lg:justify-start justify-between  h-[400px] lg:ml-[32px] lg:mt-[32px] m-[16px] ">
+      <h1 class="uppercase font-medium text-[12px] leading-[14.63px] spacing-[5px] text-[#6C7289] tracking-[5px]  p-[0px] montserrat  ">perfume</h1>
+      <h1 class="lg:whitespace-pre-line font-bold text-[32px] leading-[32px] lg:mt-[-50px]   p-[0px] fraunces 	">
 
         Gabrielle
         Essence Eau
         De Parfum
 
       </h1>
-      <p class="text-[#6C7289] font-medium text-[14px] leading-[23px] p-[0px] ">
+      <p class="text-[#6C7289] font-medium text-[14px] leading-[23px] p-[0px] lg:mb-[24px] montserrat ">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
 
       <div class="price flex-row flex  ">
-        <h1 class="mr-1  font-bold text-[32px] leading-[32px] p-[0px] text-[#3D8168]">
+        <h1 class="mr-1  font-bold text-[32px] leading-[32px] p-[0px] text-[#3D8168] fraunces">
 
           $149.99
         </h1>
-        <h1 class="line-through font-medium text-[13px] leading-[17.07px] mb-[20px] p-[0px]  ">
+        <h1 class="line-through font-medium text-[13px] leading-[17.07px] mb-[20px] p-[0px] montserrat ">
 
           $169.99
         </h1>
@@ -68,7 +69,7 @@
 
 
         <button
-          class="  font-bold text-[14px] leading-[17.07px] bg-[#3D8168] text-[white] h-[48px] w-full lg:w-[236px] relative rounded-lg  ">
+          class=" montserrat  font-bold text-[14px] leading-[17.07px] bg-[#3D8168] lg:mt-[24px] text-[white] h-[48px] w-full lg:w-[236px] relative rounded-lg  ">
           <img src="./images/icon-cart.svg" class="absolute top-[15px] left-[63px] " alt="">add to cart </button>
       </div>
     </article>
